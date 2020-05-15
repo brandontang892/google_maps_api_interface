@@ -96,7 +96,7 @@
 
         infowindow = new google.maps.InfoWindow();
         var script = document.createElement('script');
-        script.src = 'coord_data.json';
+        script.src = 'temp_data.json';  //edit the name of this file depending on the name of your json data file.
         document.getElementsByTagName('head')[0].appendChild(script);
         map.addListener('click', function() {
           if (infowindow) infowindow.close();
