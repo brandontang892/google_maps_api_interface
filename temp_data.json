@@ -1,0 +1,32 @@
+eqfeed_callback({
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 42.369967, -71.111642 ]
+      },
+      "properties": {
+        "location_name": "Harvard University Police Department",
+        "address": "1033 Massachusetts Ave, Cambridge, MA 02138",
+        "contact_info": "617-495-1783 | lostandfound@hupd.harvard.edu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 42.352814, -71.118487 ]
+      },
+      "properties": {
+        "location_name": "Boston University Police Department",
+        "address": "32 Harry Agganis Way, Boston, MA 02215",
+        "contact_info": "617-353-2121"
+      }
+    }
+  ]
+});
+
+
+//add more dictionaries for more markers!
